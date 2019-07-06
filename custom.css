@@ -2,12 +2,27 @@
 {
 	margin-top: 200px;
 	margin-left: 350px;
-	padding: 25px;
+	padding: 50px;
 	border: 1px solid #EEEEEE;
-	width: 800px;
+	width: 700px;
 }
 
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Oswald', sans-serif;
+}
+
+.plan
+{
+	margin-top: 100px;
+}
+
+.plan .card
+{
+	width: 20rem;
+}
+
+.planImage
+{
+	height: 200px;
 }
