@@ -10,13 +10,17 @@ body
 {
 	padding: 50px;
 	border: 1px solid #EEEEEE;
-	width: 700px;
 	background-color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Oswald', sans-serif;
+}
+
+#header
+{
+	text-align: center;
 }
 
 .plan
@@ -39,32 +43,42 @@ a:link
 	text-decoration: none;
 }
 
-#headerTitle
-{
-	padding-left: 75px;
-}
+
 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px)
 {
-	
-	
+	#headerTitle
+	{
+		padding-left: 75px;
+	}	
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) 
 {
-	#headerTitle
-	{
-		padding-left: 125px;
-	}
+	
 	
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) 
 {
+	#main
+	{
+		width: 700px;
+	}
+	
+	#header
+	{
+		text-align: left;
+	}
+	
+	#headerTitle
+	{
+		padding-left: 125px;
+	}
 	
 }
 
