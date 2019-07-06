@@ -8,6 +8,7 @@ body
 
 #main
 {
+	width: 700px;
 	padding: 50px;
 	border: 1px solid #EEEEEE;
 	background-color: #FFFFFF;
@@ -43,7 +44,15 @@ a:link
 	text-decoration: none;
 }
 
+#planDescription
+{
+	margin-top: 50px;
+}
 
+#planTimeline
+{
+	margin-top: 100px;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -72,7 +81,7 @@ a:link
 {
 	#main
 	{
-		width: 700px;
+		
 	}
 	
 	#header
