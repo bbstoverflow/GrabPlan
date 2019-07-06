@@ -1,8 +1,9 @@
 # GrabPlan
 __**Summary**__
-GrabPay will be a new component on the Grab app which provides pre-planned outings by users for users.
 
-_Plan: 
+GrabPay will be a new component on the Grab app which provides pre-planned outings (plans) by users for users.
+
+_"Plan": 
 Under GrabPlan, a “plan” is a structured itinerary (maximum length of 1 day) which provides users with places of interest to visit. Such places include food locations (hawker centres, restaurants, coffee shops, etc), entertainment facilities (karaoke, cinemas, bowling, etc) and any other place deemed noteworthy by users.
 Users are able to craft and submit plans to GrabPlan where other users will browse and select plans to explore. Plans can be reviewed and rated by users, allowing for ranking of plans in terms of quality.
 Plans can be split into different categories, such as based on theme (food, hiking, mix, etc) and based on target groups (friends, co-workers, couples, etc)
@@ -13,13 +14,14 @@ A catalogue of plans will be available for users to browse and select. Each plan
 When a user selects and confirms a plan, GrabPlan can immediately and automatically carry out the booking/purchasing of tickets for all the relevant venues through GrabPay. Additionally, GrabPlan can simultaneously book a GrabCar driver to fetch the user to their location.
 
 **Benefits to Grab**
+
 Vendors who wish to be featured on plans thus will be encouraged to provide GrabPay services to attract more customers. With plans that encompass a wide variety of categories of interesting places, more places will integrate GrabPay and thus GrabPay will be more universally used.
 
 Increased use of GrabCar to fetch users to their plans’ starting location.
 
 
 
-Challenges - How do we fulfil them?
+**Challenges - How do we fulfil them?**
 1. AWS
 
   Use AWS Amplify to build a mobile or web application that connects to at least one AWS service. (TODO: specify subservice)
@@ -33,6 +35,7 @@ One aspect of better financial inclusion is having a universal/ubiquitous paymen
 
 
 __**Problem**__
+
 “As a local, sometimes I do not know what to do when I’m hanging out with my friends or spending time with my significant other.”
 Sometimes local citizens has lived in their countries for a long time that they do not know where to head to for social related gatherings.
 
@@ -43,6 +46,7 @@ Tourists might have some form of uncertainty in trying certain things out. Espec
 Local business owners might not know how to kick start their business to get people to be aware of their shops.
 
 __**Solution**__
+
 A service which assists the user in deciding his/her plans for the day, when hanging out with friends or dating with their significant other. This is to stretch the current capabilities of the Super App (Grab).
 
 By using the service within the Super App, it ensures and not restricted to:
@@ -55,6 +59,7 @@ Encourages more entities to join the platform
 Positive side effects of improving the other services of Grab
 
 __**Target Audience**__
+
 Local citizens: support local initiated business
 Tourist: be aware and experience authentic foriegn culture
 Business owners: improves the finances of the business
