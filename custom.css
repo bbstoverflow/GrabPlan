@@ -53,6 +53,11 @@ a:link
 	{
 		padding-left: 75px;
 	}	
+	
+	.plan .card
+	{
+		width: 20rem;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -80,10 +85,7 @@ a:link
 		padding-left: 125px;
 	}
 	
-	.plan .card
-	{
-		width: 20rem;
-	}
+	
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
