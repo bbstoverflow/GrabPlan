@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6
 
 .plan .card
 {
-	width: 20rem;
+	width: 10rem;
 }
 
 .planImage
@@ -80,6 +80,10 @@ a:link
 		padding-left: 125px;
 	}
 	
+	.plan .card
+	{
+		width: 20rem;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
