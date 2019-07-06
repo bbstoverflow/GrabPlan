@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "grabplan-dev-20190707024259-authRole",
+            "UnauthRoleArn": "arn:aws:iam::928451109997:role/grabplan-dev-20190707024259-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::928451109997:role/grabplan-dev-20190707024259-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "grabplan-dev-20190707024259-deployment",
+            "UnauthRoleName": "grabplan-dev-20190707024259-unauthRole",
+            "StackName": "grabplan-dev-20190707024259",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:928451109997:stack/grabplan-dev-20190707024259/e15af0c0-a01d-11e9-affa-0200beb62082"
+        },
+        "categories": {
+            "auth": {
+                "cognitof7dd7df3": {}
+            }
+        }
+    }
+}

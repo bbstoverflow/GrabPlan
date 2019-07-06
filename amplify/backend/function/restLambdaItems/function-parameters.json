@@ -1,0 +1,28 @@
+{
+    "permissions": {
+        "auth": {
+            "cognitof7dd7df3": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "analytics": {
+            "grabplan": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "storage": {
+            "database": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}

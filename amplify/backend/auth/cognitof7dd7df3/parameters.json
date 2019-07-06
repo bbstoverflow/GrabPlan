@@ -1,0 +1,29 @@
+{
+    "identityPoolName": "grabplan_identitypool_8dcf6fb6",
+    "allowUnauthenticatedIdentities": true,
+    "lambdaLogPolicy": "grabpl_8dcf6fb6_lambda_log_policy",
+    "openIdLambdaRoleName": "grabpl_8dcf6fb6_openid_lambda_role",
+    "openIdRolePolicy": "grabpl_8dcf6fb6_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "grabpl_8dcf6fb6_openid_lambda_iam_policy",
+    "openIdLogPolicy": "grabpl_8dcf6fb6_openid_lambda_log_policy",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitof7dd7df3",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

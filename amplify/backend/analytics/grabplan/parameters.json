@@ -1,0 +1,20 @@
+{
+    "appName": "grabplan",
+    "roleName": "pinpointLambdaRolef8e55a8b",
+    "cloudWatchPolicyName": "cloudWatchPolicyf8e55a8b",
+    "pinpointPolicyName": "pinpointPolicyf8e55a8b",
+    "authPolicyName": "pinpoint_amplify_f8e55a8b",
+    "unauthPolicyName": "pinpoint_amplify_f8e55a8b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

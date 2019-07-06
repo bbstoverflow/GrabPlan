@@ -1,0 +1,76 @@
+{
+	"auth": {
+		"cognitof7dd7df3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"grabplan": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"database": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"function": {
+		"restLambdaItems": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "database",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				},
+				{
+					"category": "auth",
+					"resourceName": "cognitof7dd7df3",
+					"attributes": [
+						"UserPoolId"
+					]
+				},
+				{
+					"category": "analytics",
+					"resourceName": "grabplan",
+					"attributes": [
+						"Id",
+						"Region"
+					]
+				},
+				{
+					"category": "storage",
+					"resourceName": "database",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
+		}
+	},
+	"api": {
+		"restAPI": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "restLambdaItems",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
+		}
+	}
+}

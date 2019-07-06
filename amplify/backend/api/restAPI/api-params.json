@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "restLambdaItems",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "restAPI",
+    "apiName": "restAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "restLambdaItems"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "grabplan-dev-20190707024259-authRole",
+        "unAuthRoleName": "grabplan-dev-20190707024259-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "restLambdaItems",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
