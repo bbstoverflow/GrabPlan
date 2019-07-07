@@ -24,8 +24,8 @@ Increased use of GrabCar to fetch users to their plans’ starting location.
 **Challenges - How do we fulfil them?**
 1. AWS
 
-  Use AWS Amplify to build a mobile or web application that connects to at least one AWS service. (TODO: specify subservice)
-With the enormous computational power and space needed for the GrabPlan component (geolocation purposes, payment, large user base and review system for plans, machine learning for predictive recommending of plans to users), AWS Amplify will be used to scale up. AWS APIs will be used as well to facilitate development.
+  Use AWS Amplify to build a mobile or web application that connects to at least one AWS service.
+With the enormous computational power and space needed for the GrabPlan component (geolocation purposes, payment, large user base and review system for plans, machine learning for predictive recommending of plans to users), AWS Amplify will be used to scale up. AWS APIs will be used as well to facilitate development, for example we made use of Amplify Analytics to monitor and analyse our user behaviour to determine popularity of different plans.
 
 2. Grab
 
